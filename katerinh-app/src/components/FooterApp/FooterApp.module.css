@@ -1,0 +1,15 @@
+.container {
+  color: rgb(210, 114, 18);
+  /* display: flex;
+  justify-content: space-between; */
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center; /* 2. Horizontally center content */
+  height: 100px;
+  width: 100%;
+  
+  background-color: rgb(46, 34, 135);
+  float: bottom;
+  
+}
