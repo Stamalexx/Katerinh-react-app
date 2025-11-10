@@ -1,8 +1,12 @@
 import styles from "./AsideApp.module.css";
+import { Link } from "react-router-dom";
+
 export default function AsideApp() {
   return (
     <aside className={styles.container}>
-      <h1>aside</h1>
+      <Link to="/form">
+        <button>Go to Form</button>
+      </Link>
     </aside>
   );
 }
