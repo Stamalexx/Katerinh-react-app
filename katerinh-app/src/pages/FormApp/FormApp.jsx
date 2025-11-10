@@ -2,12 +2,11 @@ import style from "./FormApp.module.css";
 
 export default function FormApp() {
   return (
-    <form className={style.formContainer}>
-    <div>
-      <h2>Contact Us</h2>
-      <p>Please fill out this form.</p>
-
-      \
+    
+    <form className={style.container}>
+      <div>
+        <h2>Contact Us</h2>
+        <p>Please fill out this form.</p>
         <label>
           Your Name:
           <input type="text" name="name" />
@@ -19,8 +18,8 @@ export default function FormApp() {
         </label>
         <br />
         <button type="submit">Send</button>
-      
-    </div>
+        
+      </div>
     </form>
   );
 }

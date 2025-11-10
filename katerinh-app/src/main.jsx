@@ -7,16 +7,16 @@ import {
 import './index.css'
 
 import App from './App.jsx'
-import FormApp from './pages/FormApp/FormApp.jsx';
+import FormPage from './pages/FormApp/FormPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />, // When the URL is "/", show the <App /> component
+    element: <App />,
   },
   {
-    path: "form", // When the URL is "/contact", show the <FormApp /> component
-    element: <FormApp />,
+    path: "form",
+    element: <FormPage />,
   },
 ]);
 

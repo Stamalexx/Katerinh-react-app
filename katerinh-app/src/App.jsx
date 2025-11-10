@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <AppBar />
+      <AppBar text="Πόλεις της Ελλάδας" />
       <div className="layout">
         <NavigationApp onCitySelect={setCurrentCity} />
         <SectionApp selectedCity={currentCity} />

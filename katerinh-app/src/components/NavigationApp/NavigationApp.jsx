@@ -1,7 +1,12 @@
 import style from "./NavigationApp.module.css"
-export default function NavigationApp({ onCitySelect }) {
-  return (
-    <nav className={style.container}>
+import { Link } from "react-router-dom";
+export default function NavigationApp({ onCitySelect, form } ) {
+  let content;
+
+  if (!form) 
+    {
+    content = (
+      <nav className={style.container}>
       <button
         className={style.navButton}
         onClick={() => onCitySelect("thessaloniki")}
@@ -21,5 +26,17 @@ export default function NavigationApp({ onCitySelect }) {
         Κατερίνη
       </button>
     </nav>
-  );
+    )
+    }
+
+    else if (form) {
+      content = (
+        <nav className={style.container}>
+          <p>Thank you for visiting the form page.</p>
+        </nav>
+      );
+
+    }
+
+  return ( content);
 }
