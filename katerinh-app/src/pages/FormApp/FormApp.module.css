@@ -37,6 +37,8 @@
   grid-template-columns: 170px 1fr;
   align-items: center; /* Ευθυγραμμίζει την ετικέτα και το πεδίο κάθετα */
   gap: 15px; /* Κενό μεταξύ ετικέτας και πεδίου */
+  display: flex;
+  justify-content: flex-end; 
 }
 
 /* 4. ΣΤΥΛ ΓΙΑ ΤΙΣ ΕΤΙΚΕΤΕΣ (Labels) */
