@@ -7,26 +7,26 @@ export default function NavigationApp({ onCitySelect, form } ) {
     {
     content = (
       <nav className={style.container}>
-      <button
-        className={style.navButton}
-        onClick={() => onCitySelect("thessaloniki")}
-      >
-        Θεσσαλονίκη
-      </button>
-      <button
-        className={style.navButton}
-        onClick={() => onCitySelect("athens")}
-      >
-        Αθήνα
-      </button>
-      <button
-        className={style.navButton}
-        onClick={() => onCitySelect("katerini")}
-      >
-        Κατερίνη
-      </button>
-    </nav>
-    )
+        <button
+          className={`${style.mybutton} my-button`}
+          onClick={() => onCitySelect("thessaloniki")}
+        >
+          Θεσσαλονίκη
+        </button>
+        <button
+          className={`${style.mybutton} my-button`}
+          onClick={() => onCitySelect("athens")}
+        >
+          Αθήνα
+        </button>
+        <button
+          className={`${style.mybutton} my-button`}
+          onClick={() => onCitySelect("katerini")}
+        >
+          Κατερίνη
+        </button>
+      </nav>
+    );
     }
 
     else if (form) {

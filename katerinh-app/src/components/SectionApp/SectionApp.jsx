@@ -7,8 +7,15 @@ export default function SectionApp({ selectedCity }) {
   
   return (
     <section className={style.container}>
-      <h1>{title}</h1>
-      <p>{description}</p>
+      <div className={style.content}>
+        <h1 className={style.title}>{title}</h1>
+        <p className={style.description}>{description}</p>
+        <img
+          className={style.img}
+          src={citiesData[selectedCity].img}
+          alt={title}
+        />
+      </div>
     </section>
   );
 }
