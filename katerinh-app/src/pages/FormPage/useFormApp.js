@@ -28,7 +28,7 @@ export default function useFormApp() {
     }
     if (!email.endsWith(".gr")) {
       errorMessages +=
-        "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email με κατάληξη .gr.\n \n";
+        "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email με κατάληξη (.gr).\n \n";
     }
     if (checkboxValues.length === 0) {
       errorMessages +=

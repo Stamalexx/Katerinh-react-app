@@ -43,3 +43,6 @@
   transform: scale(0.98); /* Makes it look "pressed" */
   box-shadow: none; /* Remove shadow when pressed */
 }
+.message {
+  margin: 10px;
+}

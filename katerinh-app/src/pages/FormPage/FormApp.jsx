@@ -11,7 +11,7 @@ export default function FormApp() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [checkboxValues, setCheckboxValues] = useState([]);
-  const [region, setRegion] = useState("thessaloniki");
+  const [region, setRegion] = useState("Μακεδονία");
   let errorText = validateForm(email, name, checkboxValues);
   const formData = { name, email, region, checkboxValues };
   
@@ -52,9 +52,9 @@ export default function FormApp() {
             id="region"
             size="5"
           >
-            <option value="thessaloniki">Μακεδονία</option>
-            <option value="veroia">Πελοπόννησος</option>
-            <option value="thraki">Θράκη</option>
+            <option value="Μακεδονία">Μακεδονία</option>
+            <option value="Πελοπόννησος">Πελοπόννησος</option>
+            <option value="Θράκη">Θράκη</option>
           </select>
         </div>
 
@@ -66,7 +66,7 @@ export default function FormApp() {
               <input
                 type="checkbox"
                 name="interest"
-                value="sites"
+                value="Αρχαιολογικοί χώροι"
                 onChange={(e) => {
                   const value = e.target.value;
                   setCheckboxValues((prev) =>
@@ -82,7 +82,7 @@ export default function FormApp() {
               <input
                 type="checkbox"
                 name="interest"
-                value="beaches"
+                value="Ακτές κολύμβησης"
                 onChange={(e) => {
                   const value = e.target.value;
                   setCheckboxValues((prev) =>
@@ -98,7 +98,7 @@ export default function FormApp() {
               <input
                 type="checkbox"
                 name="interest"
-                value="food"
+                value="Φαγητό"
                 onChange={(e) => {
                   const value = e.target.value;
                   setCheckboxValues((prev) =>
@@ -139,7 +139,7 @@ export default function FormApp() {
               setName("");
               setEmail("");
               setCheckboxValues([]);
-              setRegion("thessaloniki");
+              setRegion("Μακεδονία");
             }}
           >
             Καθάρισμα

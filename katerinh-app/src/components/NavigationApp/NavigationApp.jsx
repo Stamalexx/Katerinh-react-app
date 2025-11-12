@@ -29,7 +29,7 @@ export default function NavigationApp({ onCitySelect, isform }) {
   } else if (isform) {
     content = (
       <nav className={style.container}>
-        <p>Thank you for visiting the form page.</p>
+        <p className={style.message}>Thank you for visiting the form page.</p>
       </nav>
     );
   }
