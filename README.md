@@ -61,8 +61,9 @@ npm install
 
 # Run
 npm run dev
+```
 
-
+```bash
 # Project Structure
 
 Cities-app-React/
@@ -80,4 +81,4 @@ Cities-app-React/
 ├── vite.config.js
 ├── eslint.config.js
 └── README.md
-
+```
