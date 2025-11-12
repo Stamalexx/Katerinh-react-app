@@ -38,7 +38,7 @@ It demonstrates modern React development practices including component-based arc
 - **Build Tool / Bundler**: Vite  
 - **Linting / Formatting**: ESLint  
 - **Languages**: JavaScript (ES6+), HTML, CSS  
-- **Other libraries**: *(List any libraries used — e.g., React Router, Axios/fetch, styled-components or CSS modules, etc.)*
+
 
 ## Getting Started
 
