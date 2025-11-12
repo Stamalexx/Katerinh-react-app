@@ -11,11 +11,8 @@ A project developed as part of my MSc in Enterprise Software Development.
   - [Prerequisites](#prerequisites)  
   - [Installation](#installation)  
   - [Running in Development](#running-in-development)  
-  - [Building for Production](#building-for-production)  
 - [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Author](#author)  
+
 
 ## About
 
@@ -47,25 +44,24 @@ It demonstrates modern React development practices including component-based arc
 - Node.js (version **22.20.0** or above)  
 - npm
 
-### Installation
-
+### Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/Stamalexx/Cities-app-React.git
-
-# Change into directory
+```
+### Change into directory
+```bash
 cd Cities-app-React
-
-# Install dependencies
+```
+### Install dependencies
+```bash
 npm install
-
-# Run
+```
+### Running in Development
+```bash
 npm run dev
 ```
-
+### Project Structure
 ```bash
-# Project Structure
-
 Cities-app-React/
 ├── public/
 │   └── index.html
